@@ -1,0 +1,626 @@
+@charset "utf-8";
+/* CSS Document */
+
+.view-ebooks{
+width:96%;
+float:left;
+margin: 1.2% 0 0 0px;
+padding: 0;
+}
+
+  
+.view-ebooks .view-content td{
+padding: 1em 1.5em 1em 4em;
+vertical-align:top;
+border-top:.1em solid #ebebeb;
+width:25em;
+}
+
+.view-ebooks td:nth-child(1){
+padding: 1em 1.5em 1em 1em;
+
+}
+
+.view-ebooks img, .view-display-id-ebooks_pane img{
+float:right;
+width:100px;
+margin:0 0 0 .5em;
+}
+
+.view-ebooks .ebookinfo{
+	float:left;
+	width: 50%;
+	margin:0 0 0 10px;
+	display:block;
+}
+
+.view-ebooks span{
+line-height: 1.1em;
+}
+
+.view-ebooks .booktitle{
+padding-bottom:1em;
+font-weight:normal;
+font-style:italic;
+display:block;
+}
+
+.view-ebooks .coursenumber{
+padding-bottom:.2em;
+font-weight:bold;
+font-size:1.2em;
+display:block;
+}
+
+
+.view-ebooks .coursesection{
+font-size:.8em;
+padding-bottom:.2em;
+font-weight:normal;
+display:block;
+}
+
+.view-ebooks .coursename{
+padding-bottom:.2em;
+display:block;
+font-weight:bold;
+}
+
+
+.view-ebooks .instructor{
+padding-bottom:.2em;
+font-weight:bold;
+display:inline;
+}
+
+/* e-books for students - filters */
+
+
+.view-ebooks .view-header {
+float:right;
+width:57%;
+}
+
+.view-e-books-for-instructors .view-header {
+width:100%;
+}
+
+.student-page-faculty-callout {
+width:36em;
+color:#fff;
+background-color:#4f2984;
+border: 1px #fc6 solid;
+border-radius: .5em;
+padding: 0 1em;
+margin:0 0 1em 0;
+height:351px;
+}
+
+.student-page-center-block {
+float:left;
+width:200px;
+margin: 0 1em 0 0;
+}
+
+.student-page-center-block .student-image img{
+float:left;
+width:143px;
+margin: 1em 1em 0 3.2em;
+}
+
+.student-page-center-block .logo img{
+float:left;
+width:185px;
+margin: 3em 1em 1em 0;
+}
+
+.student-page-faculty-callout .ebooks-about {
+width:250px;
+margin: 13.5em 1em 0 0;
+}
+
+.student-page-faculty-callout .ebooks-about a{
+color:#fff;
+}
+
+.ebooks-right-block{
+float:right;
+
+}
+
+.ebook-instructorlink {
+width:18em;
+padding: 0 1em;
+margin:0 0 1em 0;
+
+}
+
+.student-page-faculty-callout .heading{
+font-size:1.3em;
+padding:1em 0;
+}
+
+.student-page-faculty-callout .subheading{
+font-size:1.2em;
+margin:0;
+}
+
+.ebook-instructorlink ul {
+margin: 0 0 0 -2em;
+}
+
+.ebook-instructorlink ul li{
+padding:0;
+list-style-type:none;
+border-bottom:1px #fff solid;
+margin:.5em 0;
+}
+
+.student-page-faculty-callout .accent{
+color:#ffce34;
+}
+
+.cta-wrapper {
+width:18em;
+}
+
+.view-id-ebooks .view-header .cta{
+width:12em;
+background-color:#fff;
+padding: .25em 0 .25em 1.75em;
+margin: 3em auto;
+float: none;
+}
+
+.view-id-ebooks .views-exposed-form {
+float:left;
+width:21em;
+/*clear:both;*/
+}
+
+.views-exposed-form-e-books-for-instructors-ebooks-pane .views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: .45em;
+}
+.view-ebooks input[type="text"]{
+width:10em;
+}
+
+/* Course Number wrapper */
+.view-ebooks #edit-field-course-number-value{
+width:9em;
+}
+
+/* Instructor wrapper */
+.view-ebooks #edit-field-ebook-instructor-value-wrapper{
+clear:left;
+}
+
+.view-ebooks #edit-field-ebook-instructor-value{
+width:20em;
+}
+
+/* Course Title wrapper */
+.view-ebooks #edit-field-course-title-value{
+width:20em;
+}
+
+/* Book Title wrapper */
+.view-ebooks #edit-field-ebook-title-value-wrapper{
+width:20em;
+}
+
+/* Book Title text field */
+.view-ebooks #edit-field-ebook-title-value {
+width:20em;
+}
+
+/* Subject text field */
+.view-ebooks #edit-field-ebook-subject-value {
+width:6em;
+}
+
+#autocomplete {
+  border: 1px solid;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+}
+
+.view-ebooks .view-content {
+clear:both;
+}
+
+/* e-books-for-instructors-page */
+
+#views-exposed-form-e-books-for-instructors-page .views-exposed-form{
+width:100%;
+}
+
+#views-exposed-form-e-books-for-instructors-page .views-exposed-widget{
+float:left;
+}
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane, #views-exposed-form-ebooks-page .views-exposed-form{
+margin:1em auto;
+width:94%;
+border:1px #fc6 solid;
+border-radius:.5em;
+padding:.5em 1em;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,f8f8f8+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #f8f8f8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#f8f8f8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#f8f8f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+}
+
+#views-exposed-form-ebooks-page .views-exposed-form{
+width:33%;
+margin:.2em 0 1em 0;
+}
+
+#edit-authors,  #edit-isbn{
+width:10em;
+}
+
+.view-e-books-for-instructors td:nth-child(1){
+width:45%;
+}
+
+.view-e-books-for-instructors td:nth-child(2){
+width:20%;
+}
+
+.view-e-books-for-instructors td:nth-child(3){
+width:5%;
+}
+
+.view-e-books-for-instructors td:nth-child(4){
+width:10%;
+}
+
+.view-e-books-for-instructors td:nth-child(5){
+width:20%;
+}
+
+/* e-books-for-instructors - revised page using panels */
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane input[type=submit],
+#views-exposed-form-ebooks-page .views-exposed-form input[type=submit]{
+float:left;
+background-color:#fc6;
+font-size:1em;
+font-weight:bold;
+margin:1.2em 0 0 1em;
+padding:.5em;
+border-radius:.5em;
+}
+
+#views-exposed-form-ebooks-page .views-exposed-form input[type=submit]{
+margin:0;
+}
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane input[type=text]{
+float: left;
+width: 20em;
+font-size: 1em;
+background-color: #fff;
+margin: 0;
+padding: .5em;
+}
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane label{
+margin: .3em 0;
+display:inline;
+}
+
+
+p.ebooks-inst {
+font-size:1.3em;
+line-height:1.6;
+margin:0 0 0 -2em;
+}
+
+.field-name-field-lp-text p img {
+float:left;
+margin: 0;
+width:200px;
+}
+
+.pane-e-books-for-instructors-ebooks-pane {
+margin:0 0 0 1em;
+}
+
+
+.pane-e-books-for-instructors-ebooks-pane .view-header, .pane-e-books-for-instructors-ebooks-pane .view-filters {
+margin:1.5em 0 0 0;
+}
+
+
+.view-display-id-ebooks_pane tr{
+border-top: 1px #fc6 solid;
+}
+
+.view-display-id-ebooks_pane p{
+margin:.5em 0;
+}
+
+.view-display-id-ebooks_pane p.ebooks-inst-title a{
+text-decoration:none;
+}
+
+.view-display-id-ebooks_pane p.ebooks-inst-title{
+font-size:1.2em;
+}
+
+.view-display-id-ebooks_pane .view-content table{
+margin: 1em;
+width:85%;
+}
+
+.view-display-id-ebooks_pane td:nth-child(1){
+width:15%;
+}
+
+
+.view-display-id-ebooks_pane td:nth-child(2){
+width:50%;
+}
+
+.view-display-id-ebooks_pane td:nth-child(3) {
+width: 35%;
+}
+
+.view-display-id-ebooks_pane img{
+float:left;
+margin:0 0 0 0;
+}
+
+.views-field-field-ebooks-inst-owned img {
+float: left;
+width:25px;
+}
+
+.views-field-field-ebooks-inst-owned .cta-assign {
+width:11em;
+background-color:#eee;
+border:#fc6 .2em solid;
+border-radius: 1em;
+margin:1em .7em 1.3em 0;
+float: left;
+-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+padding:.5em;
+}
+
+.views-field-field-ebooks-inst-owned .cta-purchase{
+background-color:#fc6;
+width:11em;
+border:#fc6 .2em solid;
+border-radius: 1em;
+margin:1em .7em 1.3em 0;
+float: left;
+-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+padding:.5em;
+}
+
+.views-field-field-ebooks-inst-owned .cta a{
+font-size:1em;
+display:block;
+margin:0 auto;
+}
+
+/* Featured */
+
+.pane-ebooks-featured h2{
+margin:2em 0 0 0;
+}
+
+.view-display-id-featured .view-content table td{
+border-top: none;
+}
+
+.view-display-id-featured .wrapper {
+width:100%;
+}
+
+.view-display-id-featured .title{
+margin:0 0 .75em 0;
+font-weight:bold;
+}
+
+.view-display-id-featured img {
+float: left;
+margin:0 1em 0 0;
+}
+
+.view-display-id-featured .used_in{
+margin:.75em 0 0 0;
+}
+
+.view-display-id-featured .text{
+float: left;
+margin:1em 0 0 0;
+border-top:#fc6 1px solid;
+}
+
+/* About */
+
+.ebooks-about{
+height:50px;
+}
+
+.ebooks-about img {
+width:25px;
+margin:2em .5em 0 0;
+float: none;
+}
+
+.ebooks-about .text{
+font-size:1.2em;
+}
+
+#edit-submitted-question-or-comment {
+width:90%;
+}
+
+@media (min-width: 120px) and (max-width: 425px){
+
+/* Hide display of unnecessary images or text blocks */
+	
+.pane-node-field-lp-contacts,
+.pane-node-field-lp-search img,
+.ebook-instructorlink, 
+.pane-ebooks-featured, 
+.student-image img,
+.field-name-field-lp-text img,
+.views-field-field-ebooks-inst-isbn img,
+.student-page-faculty-callout
+{
+display:none;
+}
+
+.view-ebooks img{
+width:75px;
+}
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane {
+width:85%;
+}
+.view-ebooks .view-content td{
+padding: 1em 1.5em 1em 1em;
+vertical-align:top;
+border-top:.1em solid #ebebeb;
+width:15em;
+float: left;
+}
+.view-ebooks #edit-field-course-title-value {
+width: 16em;
+}
+.view-ebooks #edit-field-ebook-title-value {
+width: 16em;
+}
+
+p.ebooks-inst {
+font-size:1.2em;
+line-height:1.2;
+margin:1em;
+}
+
+.view-display-id-ebooks_pane td:nth-child(1), .view-display-id-featured td:nth-child(1){
+width:15%;
+}
+
+.ebooks-inst-wrapper {
+width:10em;
+}
+
+.view-display-id-ebooks_pane td:nth-child(2){
+width:15%;
+}
+
+.view-display-id-ebooks_pane td:nth-child(3) {
+width: 5%;
+}
+
+#views-exposed-form-ebooks-page .views-exposed-form{
+width:95%;
+margin:.2em 0 1em 0;
+}
+
+
+
+}
+@media (min-width: 426px) and (max-width: 585px){
+.view-ebooks #edit-field-course-title-value {
+    width: 25em;
+}
+.view-ebooks #edit-field-ebook-title-value {
+    width: 25em;
+}
+
+.pane-node-field-lp-contacts,
+.pane-node-field-lp-search img,
+.student-image img,
+.ebook-instructorlink,
+.student-page-center-block .logo,
+.student-page-center-block .ebooks-about,
+.student-page-faculty-callout{
+display:none;
+}
+
+
+.view-ebooks .view-content td{
+padding: 1em 1.5em 1em 1em;
+vertical-align:top;
+border-top:.1em solid #ebebeb;
+width:25em;
+float: left;
+}
+
+p.ebooks-inst {
+font-size:1.1em;
+line-height:1.1;
+margin:0;
+}
+
+.field-name-field-lp-text img{
+display:none;
+}
+
+.pane-e-books-for-instructors-ebooks-pane .views-field-field-ebooks-inst-isbn img{
+display:none;
+}
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane {
+width:85%;
+}
+
+#views-exposed-form-ebooks-page .views-exposed-form{
+width:95%;
+margin:.2em 0 1em 0;
+}
+ 
+}
+
+@media (min-width: 586px) and (max-width: 899px){
+
+.view-ebooks img{
+width:75px;
+}
+
+.student-image img,
+.student-page-center-block,
+.student-page-faculty-callout {
+display:none;
+}
+
+.ebook-instructorlink {
+display:none;
+}
+
+p.ebooks-inst {
+font-size:1.1em;
+line-height:1.1;
+margin:0;
+}
+
+.field-name-field-lp-text img{
+display:none;
+}
+
+#views-exposed-form-e-books-for-instructors-ebooks-pane {
+width:85%;
+}
+
+#views-exposed-form-ebooks-page .views-exposed-form{
+width:95%;
+margin:.2em 0 1em 0;
+}
+
+}
+
